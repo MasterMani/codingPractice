@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "0.0.0",
+  "description": "practing javascript and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MasterMani/codingPractice.git"
+  },
+  "author": "Mani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasterMani/codingPractice/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}
