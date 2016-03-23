@@ -1,0 +1,9 @@
+//Todo Projects List
+//Nodejs and Scala
+Project 1:
+Given first name, last name and domain, find a valid email. 
+If there's an email found then it should return the email address.
+If it's a catch all address, then it should return "CATCH_ALL"
+To be hired for this job, you need to offer some expertise in this area and lay out a plan for how you will solve this. I'm looking for a resilient solution. Please advise if this requires multiple proxies. 
+
+Requirement: You should be well aware of how email systems, relevant protocols work.
