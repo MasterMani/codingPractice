@@ -1,0 +1,14 @@
+sqlite3 testdb.db or sqlite3> attach 'testdb.db' as 'test'
+
+create table marks (id int primary key not null, name text not null, tamil integer, english integer, maths integer, science integer, social integer);
+
+insert into marks(id, name, tamil, english, maths, science, social) values(1, 'mani', 10, 20, 30, 40, 50);
+insert into marks(id, name, tamil, english, maths, science, social) values(2, 'sabari', 10, 20, 30, 40, 98);
+insert into marks(id, name, tamil, english, maths, science, social) values(3, 'heart', 50, 70, 30, 40, 32);
+insert into marks(id, name, tamil, english, maths, science, social) values(4, 'brain', 60, 32, 87, 25, 85);
+
+sqlite3>.headers on
+sqlite3>.mode tbs
+
+select * from marks;
+select * from marks where sciece > 2 AND id > 2;
