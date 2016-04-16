@@ -12,3 +12,9 @@ sqlite3>.mode tbs
 
 select * from marks;
 select * from marks where sciece > 2 AND id > 2;
+
+++Auto Increament in sqlite:
+declare column name with "INTEGER PRIMARY KEY". 
+Ex : insert into testTable (sno, name) values (null, 'first name')
+Refer this - https://www.sqlite.org/faq.html#q1
+
